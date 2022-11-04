@@ -1,8 +1,6 @@
 FROM node:16-alpine
 
-RUN apt update && apt upgrade -y \
-    && apt clean
-
+RUN apk update && apk add ca-certificates && update-ca-certificates
 RUN mkdir /app
 WORKDIR /app
 
