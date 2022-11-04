@@ -1,7 +1,7 @@
 FROM node:16-alpine
 
-RUN apt-get update && apt-get upgrade -y \
-    && apt-get clean
+RUN apt update && apt upgrade -y \
+    && apt clean
 
 RUN mkdir /app
 WORKDIR /app
