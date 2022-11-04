@@ -30,8 +30,12 @@ GitOps Flow deployment with ArgoCD and Helm Template
 1. Application Repository - https://github.com/zoeldjian/pintu
 2. Helm (maifest) Repository - https://github.com/zulfikarwantogia/helm-labbing
 
-```Argocd deployment to k8s cluster```
+```Jenkins Stages - CI```
+
+![Screen Shot 2022-11-05 at 00 06 33](https://user-images.githubusercontent.com/8435948/200034659-66b860a6-aa37-42f7-8b40-d0033d6bdca6.png)
+
+
+```Argocd deployment to k8s cluster - CD```
 
 ![Screen Shot 2022-11-04 at 23 40 42](https://user-images.githubusercontent.com/8435948/200033956-44d21d7b-555f-4175-90f2-6a4561fad032.png)
-
 
