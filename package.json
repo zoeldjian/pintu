@@ -1,0 +1,21 @@
+{
+    "name": "gitops-jenkins-nodejs",
+    "version": "0.0.1",
+    "description": "test for github-actions-runner",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "jest",
+      "test:watch": "jest --watch"
+    },
+    "author": "zul",
+    "dependencies": {
+      "express": "^4.17.1",
+      "http": "0.0.1-security"
+    },
+    "devDependencies": {
+      "jest": "^26.4.2",
+      "supertest": "^4.0.2"
+    }
+  }
+  

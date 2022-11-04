@@ -1,5 +1,5 @@
 # pintu
-for test online purpose
+GitOps Flow deployment with ArgoCD and Helm Template
 # testing
 
 # this is a GitOps method to run the CI/CD pipeline using jenkinsfile (groovy scripting) deployed on Kubernetes by ArgoCD using helm template (manifest) depands on the environment (prd, stg, etc)
@@ -26,7 +26,7 @@ for test online purpose
 - ArgoCD will be setup to auto sync and watch any cahnges inside the helm values 
 - All the manifest inside values.prod will be deployed by argoCD into k8s cluster
 
-
 ```The Repos```
 1. Application Repository - https://github.com/zoeldjian/pintu
 2. Helm (maifest) Repository - https://github.com/zulfikarwantogia/helm-labbing
+
