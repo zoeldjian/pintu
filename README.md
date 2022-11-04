@@ -1,6 +1,5 @@
-# pintu
+# Pintu
 GitOps Flow deployment with ArgoCD and Helm Template
-# testing
 
 ### this is a GitOps method to run the CI/CD pipeline using jenkinsfile (groovy scripting) deployed on Kubernetes by ArgoCD using helm template (manifest) depands on the environment (prd, stg, etc) ###
 ### so we will have 2 repos (app repo and helm repo), jenkins will create a new tag into the values of helm (values.prod in our case) whenever jenkins job has been done inside the helm repo ###
