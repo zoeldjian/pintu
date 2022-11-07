@@ -1,7 +1,6 @@
 {
     "name": "gitops-jenkins-nodejs",
     "version": "0.0.1",
-    "description": "test for github-actions-runner",
     "main": "index.js",
     "scripts": {
       "start": "node index.js",
